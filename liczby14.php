@@ -9,4 +9,5 @@ $liczbaBin = 0b010001;
 print("<br>liczba binarna to:" . $liczbaBin);
 $liczbaDuza = 6_967_420;
 print("<br>liczba duża to:" . $liczbaDuza);
+echo "<br>"
 ?>

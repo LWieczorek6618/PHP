@@ -7,4 +7,5 @@ print("<br>liczba przecinkowa to:" . $a);
 print("<br>liczba z potęgą to:" . $b);
 print("<br>liczba z ujemną potęgą to:" . $c);
 print("<br>liczba duża z przecinkiem to:" . $d);
+echo "<br>"
 ?>
