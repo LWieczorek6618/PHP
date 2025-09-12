@@ -1,9 +1,10 @@
 <?php
-function test();{
+function test(){
 static $licznik=0;
-echo $licznik . "<br";
+echo $licznik . "<br>";
 $licznik++;
 }
 test();
 test();
 test();
+
