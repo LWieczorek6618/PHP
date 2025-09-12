@@ -5,3 +5,4 @@ $bar = &$foo; //referencja na foo
 $bar ='Andy';
 echo $bar;
 echo $foo;
+//zmienne statyczne
