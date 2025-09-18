@@ -31,3 +31,10 @@ print_r(array_slice($e,1,2));
 $f=array("red","blue","black","blacker","white");
 print_r(array_slice($f,-2,1));
 ?>
+<?php
+$g=array("red","blue","black","blacker","white");
+print_r($g);
+echo "<br>";
+$potasowana=shuffle($g);
+print_r($g);
+?>
