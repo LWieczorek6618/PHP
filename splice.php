@@ -27,3 +27,7 @@ print_r(array_slice($d,2));
 $e=array("red","blue","black","blacker","white");
 print_r(array_slice($e,1,2));
 ?>
+<?php
+$f=array("red","blue","black","blacker","white");
+print_r(array_slice($f,-2,1));
+?>
