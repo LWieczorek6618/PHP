@@ -12,3 +12,9 @@ $b2=array(5,6);
 array_splice($b1,0,2,$b2);
 print_r($b1);
 ?>
+<p>Usuwanie elementów</p>
+<?php
+$c1=array(0,1,2,3);
+array_splice($c1,0,2);
+print_r($c1);
+?>
