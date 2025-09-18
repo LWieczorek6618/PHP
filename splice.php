@@ -18,3 +18,7 @@ $c1=array(0,1,2,3);
 array_splice($c1,0,2);
 print_r($c1);
 ?>
+<?php
+$d=array("red","blue","black","blacker","white");
+print_r(array_slice($d,2));
+?>
