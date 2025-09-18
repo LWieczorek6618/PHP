@@ -18,7 +18,12 @@ $c1=array(0,1,2,3);
 array_splice($c1,0,2);
 print_r($c1);
 ?>
+<p>Tworzenie tablicy na podstawie innej</p>
 <?php
 $d=array("red","blue","black","blacker","white");
 print_r(array_slice($d,2));
+?>
+<?php
+$e=array("red","blue","black","blacker","white");
+print_r(array_slice($e,1,2));
 ?>
