@@ -1,0 +1,9 @@
+<button id="przyciskData">Wyświetl obecną datę</button>
+<p id="data"></p>
+
+<script>
+    document.querySelector('#przyciskData').onclick = wyswietlDate;
+    function wyswietlDate() {
+        document.querySelector('#data').innerHTML = Date();
+    }
+</script>

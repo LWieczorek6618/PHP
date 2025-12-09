@@ -1,0 +1,15 @@
+<div id="obrazki">
+    <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/George_Floyd.png" alt="Obrazek 1">
+    <img src="https://i.ytimg.com/vi/PkMQ-jZ2Svc/maxresdefault.jpg" alt="Obrazek 2">
+</div>
+<script>
+const g = document.getElementById('obrazki');
+const imgs = g.getElementsByTagName('img');
+for (let i = 0; i < imgs.length; i++) {
+    imgs[i].onclick = function() {
+        const next = this.nextElementSibling || g.querySelector('img');
+        [this.src, next.src] = [next.src, this.src];
+        [this.alt, next.alt] = [next.alt, this.alt];
+    };
+}
+</script>

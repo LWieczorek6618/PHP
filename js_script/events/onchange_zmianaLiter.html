@@ -1,0 +1,10 @@
+<p>Wpisz swoje imię</p>
+<input type="text" id="imie" onchange="zmienNaWielkieLitery();"><br>
+<input type="text">
+
+<script>
+    function zmienNaWielkieLitery() {
+        let imie = document.querySelector('#imie');
+        imie.value = imie.value.toUpperCase();
+    }
+</script>
